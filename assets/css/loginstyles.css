@@ -1,0 +1,197 @@
+@font-face {
+    font-family: engravers;
+    src: url(../fonts/Engravers-Gothic-BT-Font.ttf);
+}
+
+:root {
+    --input-border-color: black;
+    --btn-color: black;
+}
+
+* {
+    font-family: engravers;
+
+}
+
+body {
+    background-image: url(../images/pexels-mike-bird-120049.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+#navbar a {
+    color: white;
+    font-size: 20px;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width:200px) {
+    [class="container-sm"] {
+
+        margin-top: 50%;
+        width: 80% !important;
+
+    }
+
+    .card {
+        border: 1px solid white !important;
+        background-color: transparent !important;
+        backdrop-filter: blur(3px) !important;
+    }
+
+    input {
+        /* box-shadow: white !important; */
+        border: 1px solid var(--input-border-color) !important;
+    }
+
+    .btn-container {
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        background-color: var(--btn-color) !important;
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .btn:hover {
+        background-color: rgb(255, 255, 255) !important;
+        color: var(--btn-color) !important;
+    }
+}
+
+@media screen and (min-width:300px) {
+    [class="container-sm"] {
+
+        margin-top: 50%;
+        width: 80% !important;
+
+    }
+
+    .card {
+        border: 1px solid white !important;
+        background-color: transparent !important;
+        backdrop-filter: blur(3px) !important;
+    }
+
+    input {
+        /* box-shadow: white !important; */
+        border: 1px solid var(--input-border-color) !important;
+    }
+
+    .btn-container {
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        background-color: var(--btn-color) !important;
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .btn:hover {
+        background-color: rgb(255, 255, 255) !important;
+        color: rgb(0, 0, 0) !important;
+    }
+}
+
+@media screen and (min-width:600px) {
+    [class="container-sm"] {
+
+        margin-top: 10%;
+        width: 50% !important;
+        ;
+
+    }
+
+    .card {
+        border: 1px solid white !important;
+        background-color: transparent !important;
+        backdrop-filter: blur(3px) !important;
+    }
+
+    input {
+        /* box-shadow: white !important; */
+        border: 1px solid var(--input-border-color) !important;
+    }
+
+    .btn-container {
+        width: 100%;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        background-color: var(--btn-color) !important;
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .btn:hover {
+        background-color: rgb(255, 255, 255) !important;
+        color: rgb(0, 0, 0) !important;
+    }
+}
+
+@media screen and (min-width:800px) {
+    [class="container-sm"] {
+        margin-top: 7%;
+        width: 35% !important;
+    }
+
+    .card {
+        border: 1px solid transparent !important;
+
+        backdrop-filter: blur(3px) !important;
+    }
+
+    #display-6 {
+        color: #ffffff !important;
+    }
+
+    input {
+
+        color: #000000 !important;
+        border: 1px solid white !important;
+    }
+
+    input:hover {
+        border: 1px solid rgb(0, 0, 0) !important;
+    }
+
+    .btn-container {
+        width: 100%;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        background-color: var(--btn-color) !important;
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .btn:hover {
+        background-color: #ffffff !important;
+        color: var(--btn-color) !important;
+        border: 1px solid --btn-color;
+
+    }
+}

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: engravers;
+    src: url(../fonts/Engravers-Gothic-BT-Font.ttf);
+}
+
+body {
+    background-image: url(../images/pexels-mike-bird-120049.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+* {
+    font-family: engravers;
+}
+
+
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+#navbar a {
+    color: white;
+    font-size: 20px;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}

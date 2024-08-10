@@ -1,0 +1,58 @@
+@font-face {
+    font-family: engravers;
+    src: url(../fonts/Engravers-Gothic-BT-Font.ttf);
+}
+
+* {
+    font-family: engravers;
+}
+
+:root {
+    --bg-color: #202433;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+#logout-btn {
+    border-radius: 50rem;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    margin-right: 50px;
+    margin-top: 13px;
+}
+
+#logout-btn:hover {
+    background-color: var(--bg-color);
+    color: white;
+    border: 1px solid var(--bg-color);
+}
+
+#book {
+    color: rgb(0, 0, 0);
+    border: thin rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 50rem;
+    border: 1px solid transparent;
+}
+
+#book:hover {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 50rem;
+}
+
+select {
+    display: block;
+}
+
+#bookings {
+    overflow: scroll;
+    scrollbar-color: rgb(0, 0, 0);
+    scrollbar-width: solid;
+    height: 500px;
+}
